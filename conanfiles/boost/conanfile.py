@@ -45,7 +45,7 @@ class BoostConan(ConanFile):
         self.run(b2_comd)
 
     def source(self):
-        tools.get("https://dl.bintray.com/boostorg/release/{}/source/{}.tar.gz".format(self.version, self.folder_name))
+        tools.get("https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.gz")
 
     def build(self):
         with tools.chdir(self.folder_name):

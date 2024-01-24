@@ -3,7 +3,7 @@ import os
 
 class AndroidToolchainConan(ConanFile):
     name = "android-toolchain"
-    version = "r20"
+    version = "r20b"
     settings = "os_build"
     description = "Conan package for android toolchain."
     url = "https://developer.android.com/ndk"
